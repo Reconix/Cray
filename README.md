@@ -1,0 +1,2 @@
+# Cray
+Simple admin dashboard
