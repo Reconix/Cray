@@ -134,25 +134,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-right: 1px solid #d2d2d2;
   box-shadow: inset -2px -27px 34px -37px #2b2b2b
 }
-.user-panel {
-  padding: 20px 0px 20px 10px;
+.skin-cray-light {
+  boder: 5px solid #123;
+  padding: 0px;
   box-shadow: inset -2px -27px 34px -37px #aeaeae;
 }
-.user-panel .info {
+.skin-cray-light .info {
   padding: 6px 0px 3px 15px;
 }
-.skin-cray-light .user-panel > .info,
-.skin-cray-light .user-panel > .info > a {
+.skin-cray-light cray- > .info,
+.skin-cray-light cray- > .info > a {
   megin: 10px;
 	color: #6c6c6c;
   font-size: 12px;
 }
-.user-panel .user-img {
+.skin-cray-light .user-img {
   border-radius: 10%;
   border: 1px solid #bbb;
   box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 55%);
 }
-.user-panel .user-img-shadow {
+.skin-cray-light .user-img-shadow {
   box-shadow: 0px 0px 9px 2px rgb(62 62 62 / 55%);
 }
 .skin-cray-light .sidebar-menu > li {
@@ -164,7 +165,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #606060;
 	background: #f4f4f4;
   font-size: 11px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .skin-cray-light .sidebar-menu > li > a {
 	border-right: 2px solid transparent;
@@ -186,9 +188,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-left-color: #3c8dbc;
 }
 .skin-cray-light .sidebar-menu > li > .treeview-menu {
+  padding: 6px 1px 6px 10px;
 	margin: 0 1px;
-  color: #626262;
-	background: #fff;
+  color: #3e3e3e;
+	background: #f9f9f9;
+  border-right: 1px solid #8b8b8b;
+  box-shadow: inset 0px -15px 45px -36px #2e2e2e;
 }
 .skin-cray-light .sidebar a {
 	color: #575757;
@@ -199,11 +204,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-decoration: none;
 }
 .skin-cray-light .sidebar-menu .treeview-menu > li > a {
-	color: #8aa4af;
+	color: #606060;
 }
 .skin-cray-light .sidebar-menu .treeview-menu > li.active > a,
 .skin-cray-light .sidebar-menu .treeview-menu > li > a:hover {
-	color: #ffffff;
+	color: #242424;
+  padding-left: 16px;
 }
 .skin-cray-light .sidebar-form {
 	border-radius: 3px;
