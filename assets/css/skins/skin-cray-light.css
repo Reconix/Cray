@@ -37,18 +37,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .skin-cray-light .main-header .navbar .nav .open > a:hover,
 .skin-cray-light .main-header .navbar .nav .open > a:focus,
 .skin-cray-light .main-header .navbar .nav > .active > a {
-	background: #ffffff;
-	color: #999999;
+	background: #fff;
+	color: #999;
 }
 
 .skin-cray-light .main-header .navbar .nav > li > a:hover {
-	background-color: #222d32;
-	color: #d2d6de;
-	font-weight: 600;
+	background-color: #fff;
+	color: #1a1a1a;
 
-	-webkit-box-shadow: inset -2px -26px 34px -37px rgba(255,255,255,1);
-	-moz-box-shadow: inset -2px -26px 34px -37px rgba(255,255,255,1);
-	box-shadow: inset -2px -26px 34px -37px rgba(255,255,255,1);
+	-webkit-box-shadow: inset -2px -26px 34px -37px rgb(0, 0, 0);
+	-moz-box-shadow: inset -2px -26px 34px -37px rgb(0, 0, 0);
+	box-shadow: inset -2px -26px 34px -37px rgb(0, 0, 0);
 }
 
 .skin-cray-light .main-header .navbar .sidebar-toggle {
@@ -67,7 +66,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .skin-cray-light .main-header .navbar .navbar-custom-menu .navbar-nav > li > a,
 .skin-cray-light .main-header .navbar .navbar-right > li > a {
-	border-left: 1px solid #eee;
+	border-left: 1px solid #e1e1e1;
 	border-right-width: 0;
 }
 .skin-cray-light .main-header > .logo {
@@ -91,7 +90,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 }
 .skin-cray-light .main-header li.user-header {
-	background-color: #222;
+	background-color: #f7f7f7;
+  box-shadow: inset 0px -24px 96px -37px rgb(38 38 38);
 }
 .skin-cray-light .main-header .navbar .nav > li > a > span.menu-icon-text {
 	padding-left: 7px;

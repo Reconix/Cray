@@ -1073,6 +1073,7 @@ a:focus {
   border-bottom-left-radius: 4px;
 }
 .navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+  border: 1px solid #afafaf;
   height: 175px;
   padding: 10px;
   text-align: center;
@@ -1087,8 +1088,8 @@ a:focus {
 }
 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
   z-index: 5;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.8);
+  color: #404040;
+  color: rgba(53, 53, 53, 0.8);
   font-size: 17px;
   margin-top: 10px;
 }
@@ -1119,8 +1120,9 @@ a:focus {
   }
 }
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer {
-  background-color: #f9f9f9;
   padding: 10px;
+  border-top: 1px solid #8f8f8f;
+  box-shadow: inset 0px 18px 102px -37px rgb(38 38 38);
 }
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer:before,
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer:after {
@@ -1209,6 +1211,8 @@ a:focus {
   position: relative;
 }
 .navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+  box-shadow: 0 5px 7px rgb(4 4 4 / 48%);
+  border-top: 1px solid #939393;
   position: absolute;
   right: 0;
   left: auto;
