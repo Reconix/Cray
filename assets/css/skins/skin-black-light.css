@@ -1,0 +1,228 @@
+/*
+ * Skin: Cray
+ * -----------
+ * Created for Forgeigniter by Reconix
+ * http://github.com/reconix
+ * http://reconix.net
+ */
+/* skin-black navbar */
+.skin-black-light .main-header {
+  border-bottom: 3px solid #3c8dbc;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.skin-black-light .main-header .navbar-toggle {
+  color: #333;
+}
+.skin-black-light .main-header .navbar-brand {
+  color: #333;
+  border-right: 1px solid #d2d6de;
+}
+.skin-black-light .main-header .navbar {
+  background-color: #ffffff;
+}
+.skin-black-light .main-header .navbar .nav > li > a {
+  color: #333333;
+}
+.skin-black-light .main-header .navbar .nav > li > a:hover,
+.skin-black-light .main-header .navbar .nav > li > a:active,
+.skin-black-light .main-header .navbar .nav > li > a:focus,
+.skin-black-light .main-header .navbar .nav .open > a,
+.skin-black-light .main-header .navbar .nav .open > a:hover,
+.skin-black-light .main-header .navbar .nav .open > a:focus,
+.skin-black-light .main-header .navbar .nav > .active > a {
+  background: #ffffff;
+  color: #999999;
+}
+.skin-black-light .main-header .navbar .sidebar-toggle {
+  color: #333333;
+}
+.skin-black-light .main-header .navbar .sidebar-toggle:hover {
+  color: #999999;
+  background: #ffffff;
+}
+.skin-black-light .main-header .navbar > .sidebar-toggle {
+  color: #333;
+  border-right: 1px solid #d2d6de;
+}
+.skin-black-light .main-header .navbar .navbar-nav > li > a {
+  border-right: 1px solid #d2d6de;
+}
+.skin-black-light .main-header .navbar .navbar-custom-menu .navbar-nav > li > a,
+.skin-black-light .main-header .navbar .navbar-right > li > a {
+  border-left: 1px solid #d2d6de;
+  border-right-width: 0;
+}
+.skin-black-light .main-header .logo {
+  background-color: #ffffff;
+  color: #333333;
+  border-bottom: 0 solid transparent;
+  border-right: 1px solid #d2d6de;
+}
+.skin-black-light .main-header .logo:hover {
+  background-color: #fcfcfc;
+}
+@media (max-width: 767px) {
+  .skin-black-light .main-header .logo {
+    background-color: #222222;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+    border-right: none;
+  }
+  .skin-black-light .main-header .logo:hover {
+    background-color: #1f1f1f;
+  }
+}
+.skin-black-light .main-header li.user-header {
+  background-color: #222;
+}
+.skin-black-light .content-header {
+  border-bottom: 1px solid #cfcfcf;
+  /*border-left:1px solid rgba(238, 238, 238, 0.2);*/
+  padding: 0 !important;
+  background: #fff;
+  box-shadow: -1px 4px 8px 0px rgb(155 155 155 / 22%);
+}
+.skin-black-light .content-header .shadow-inset {
+  box-shadow: inset -2px -27px 34px -37px #c6c6c6;
+}
+.skin-black-light .content-header > h1 {
+  font-size: 14px;
+  line-height: 40px;
+  color: #646363;
+  padding-left: 14px;
+  /* border-bottom: 1px solid #bbb; */
+}
+.skin-black-light .content-header > .breadcrumb {
+  margin-top: 0px;
+  top: 5px;
+}
+@media (max-width: 991px) {
+  .skin-black-light .content-header > .breadcrumb {
+    top: 0px;
+  }
+}
+.skin-black-light .wrapper,
+.skin-black-light .main-sidebar,
+.skin-black-light .left-side {
+  background-color: #f9fafc;
+}
+.skin-black-light .main-sidebar {
+  border-right: 1px solid #d2d6de;
+}
+.skin-black-light .user-panel {
+  
+}
+.skin-black-light .user-panel > .info,
+.skin-black-light .user-panel > .info > a {
+  color: #444444;
+}
+.skin-black-light .sidebar-menu, .main-sidebar .user-panel, .sidebar-menu > li.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.skin-black-light .user-panel > .image > img {
+
+}
+.skin-black-light .sidebar-menu > li {
+  -webkit-transition: border-left-color 0.3s ease;
+  -o-transition: border-left-color 0.3s ease;
+  transition: border-left-color 0.3s ease;
+}
+.skin-black-light .sidebar-menu > li.header {
+  color: #606060;
+  background: #f4f4f4;
+  box-shadow: inset -2px -27px 34px -37px #aeaeae;
+  /* border-top: 1px solid #cacaca73; */
+  border-bottom: 1px solid #cacaca;
+}
+.skin-black-light .sidebar-menu > li > a {
+  font-weight: 600;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid #cacaca;
+  box-shadow: inset -2px -27px 34px -37px #aeaeae;
+}
+.skin-black-light .sidebar-menu > li:hover > a,
+.skin-black-light .sidebar-menu > li.active > a {
+  color: #000000;
+  background: #f4f4f5;
+  border-bottom: 1px solid rgb(139 139 139);
+  box-shadow: inset -2px -27px 34px -37px #484848;
+  padding-left: 20px;
+}
+.skin-black-light .sidebar-menu > li.active {
+  border-left-color: #ffffff;
+}
+.skin-black-light .sidebar-menu > li.active > a,
+.skin-black-light .sidebar-menu > li.hover > a {
+  font-weight: 600;
+  padding-left: 14px;
+}
+.skin-black-light .sidebar-menu > li > .treeview-menu {
+  background: #f4f4f5;
+}
+.skin-black-light .sidebar a {
+  color: #444444;
+}
+.skin-black-light .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-black-light .sidebar-menu .treeview-menu {
+  padding-left: 0;
+}
+.skin-black-light .sidebar-menu .treeview-menu > li {
+  border-bottom: 1px solid #e1e1e1;
+}
+.skin-black-light .sidebar-menu .treeview-menu > li > a {
+  padding: 8px 5px 8px 25px;
+  color: #777777;
+}
+.skin-black-light .sidebar-menu .treeview-menu > li.active > a,
+.skin-black-light .sidebar-menu .treeview-menu > li > a:hover {
+  padding-left: 20px;
+  font-weight: 600;
+  color: #000000;
+  background: #ededed;
+}
+.skin-black-light .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #d2d6de;
+  margin: 10px 10px;
+}
+.skin-black-light .sidebar-form input[type="text"],
+.skin-black-light .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-black-light .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-black-light .sidebar-form input[type="text"]:focus,
+.skin-black-light .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-black-light .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-black-light .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+@media (min-width: 768px) {
+  .skin-black-light.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu {
+    border-left: 1px solid #d2d6de;
+  }
+}
+.skin-black-light .content {
+  margin-top: 10px;
+  padding-left: 20px;
+}
